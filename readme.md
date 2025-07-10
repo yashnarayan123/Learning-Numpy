@@ -19,34 +19,37 @@ The repository is divided into three learning phases:
 
 ---
 
-🚀 How to Run
-1. Clone this repository
-'''bash
+## 🚀 How to Run
 
-    git clone https://github.com/your-username/Learning-Numpy.git
-    cd Learning-Numpy
-2. (Optional) Create a virtual environment
-On macOS/Linux:
-'''bash
-        
-        python -m venv venv
-        source venv/bin/activate
-On Windows:
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/your-username/Learning-Numpy.git
+   cd Learning-Numpy
+   ```
 
-'''bash 
+2. **(Optional) Create a virtual environment**
+   
+   On macOS/Linux:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+   
+   On Windows:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
 
-      python -m venv venv
-      venv\Scripts\activate
+3. **Install dependencies**
+   ```bash
+   pip install numpy notebook
+   ```
 
-3. Install dependencies
-'''bash
-       
-       pip install numpy notebook
-
-4. Launch Jupyter Notebook
-'''bash 
-      
-      jupyter notebook
+4. **Launch Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
 
 ---
 
